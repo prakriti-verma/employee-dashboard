@@ -40,7 +40,7 @@ class InsertRandom extends CI_Controller {
 		echo 'Table Created and Data Inserted';
 	}
 
-	//GENERATE RANDOM STRING
+	//GENERATE RANDOM STRING 
 	function randomString($length = 6) {
 		$str = "";
 		$characters = range('a','z');
