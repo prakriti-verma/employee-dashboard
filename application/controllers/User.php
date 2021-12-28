@@ -30,6 +30,7 @@ class User extends CI_Controller {
 	public function EditEmplDetail()
 	{
 		$jsonArray = json_decode(file_get_contents('php://input'),true);
+		//print_r($jsonArray);exit;
 		if($jsonArray==''){$jsonArray = $_REQUEST;}
 
 		$Updateresult = $this->Employee_model->EditEmplDetail($jsonArray);

@@ -15,7 +15,7 @@ class InsertRandom extends CI_Controller {
 	{
 		$Senior = $this->CreateTable_model->CreateEmpTable();
 		
-		for($i=1;$i<=5000;$i++)
+		for($i=1;$i<=5;$i++)
 		{
 			$name = $this->randomString(8);
 			$years = rand( 1 , 10 );

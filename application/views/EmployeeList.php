@@ -181,12 +181,14 @@ function editmodal(order_id)
 
 function EditData()
 {
+	var name = $("#name").val();
 	var sal = $("#salary").val();
 	var field = $("#field").val();
 	var yrs = $("#YrsExp").val();
 	var Id = $("#Id").val();
 	var inputs = {
 				"id":Id,
+				"name":name,
                 "salary": sal,
                 "field": field,
                 "years": yrs,

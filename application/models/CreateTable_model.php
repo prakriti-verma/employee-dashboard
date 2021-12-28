@@ -13,7 +13,7 @@ class CreateTable_model extends CI_Model {
 	function CreateEmpTable()
 	{
 		
-		$createQuery = "CREATE TABLE IF NOT EXISTS employee1(id INT(11) NOT NULL AUTO_INCREMENT ,
+		$createQuery = "CREATE TABLE IF NOT EXISTS employee(id INT(11) NOT NULL AUTO_INCREMENT ,
 				name VARCHAR(10) NOT NULL , 
 				salary INT(10) NOT NULL ,
 				field VARCHAR(10) NOT NULL ,
